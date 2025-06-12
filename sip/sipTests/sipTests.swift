@@ -9,9 +9,8 @@ import Testing
 @testable import sip
 
 struct sipTests {
-
     @Test func example() async throws {
-        // Write your test here and use APIs like `#expect(...)` to check expected conditions.
+        let a = 1
+        #expect(a == 1)
     }
-
 }
